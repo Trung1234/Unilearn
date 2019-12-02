@@ -70,6 +70,10 @@ ul{
     padding: 5% 0;
     color: #ffffff;
 }
+/*---------------------body-learn2----------------*/
+.t-title{
+    
+}
 /*---------------------body-learn5----------------*/
 .v-s01{
     margin: 5% 5%;
@@ -171,6 +175,7 @@ footer img{
 .v-f01 h3{
     width: 95%;
     color: #f7f7f7;
+    font-size: 16.38px !important;
 }
 .social-icon{
     display: flex;

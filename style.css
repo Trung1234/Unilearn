@@ -70,7 +70,6 @@ ul{
     padding: 5% 0;
     color: #ffffff;
 }
-/*---------------------body-learn2----------------*/
 .t-title{
     background-color: white;
     color: tomato;
@@ -86,9 +85,10 @@ ul{
     /* background-attachment:fixed; */
     
 }
+/*---------------------trung-header----------------*/
 .trung-header-v01{
     text-align: left;
-    padding: 70px 0px;
+    padding: 100px 0px;
     margin-left: 5%;
 }
 .trung-header-v01 p{
@@ -108,6 +108,14 @@ ul{
     background-color: white;
     border-color: tomato
 }
+/*---------------------body-learn2----------------*/
+.trung-col-12{
+    width: 100%;
+    margin: auto;
+}
+hr{
+    margin:auto!important
+    }
 /*---------------------body-learn5----------------*/
 .v-s01{
     margin: 5% 5%;

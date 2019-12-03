@@ -20,7 +20,7 @@ ul{
     list-style: none;
 }
 .v-a01{
-    background-color: #5f5f5f;
+    /* background-color: #5f5f5f; */
     overflow: auto;
     color: #ffffff;
 }
@@ -55,7 +55,7 @@ ul{
     padding-right: 0;
 }
 .v-b01{
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding: 15px 0;
     border-top: 1px solid gray;
     overflow: auto;
@@ -65,24 +65,48 @@ ul{
     padding-top: 25px;
 }
 .v-c03{
-    background-color: #5f5f5f;
+    /* background-color: #5f5f5f; */
     text-align: center;
     padding: 5% 0;
     color: #ffffff;
 }
 /*---------------------body-learn2----------------*/
-/* .t-title{
+.t-title{
     background-color: white;
+    color: tomato;
+    width: fit-content;
+    padding: 2px 40px;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.trung-header{
+    background-image: url(images/anh1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment:fixed; */
     
-} */
+}
 .trung-header-v01{
     text-align: left;
-    
+    padding: 70px 0px;
     margin-left: 5%;
 }
 .trung-header-v01 p{
     width: 60%;
     margin: 20px 0px;
+}
+.trung-header-v01 p{
+    width: 60%;
+    margin: 20px 0px;
+}
+.trung-header-v01 button{
+    color: white;
+    background-color: tomato;
+}
+.trung-header-v01 button:hover{
+    color: tomato;
+    background-color: white;
+    border-color: tomato
 }
 /*---------------------body-learn5----------------*/
 .v-s01{

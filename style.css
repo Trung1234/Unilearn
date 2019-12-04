@@ -74,7 +74,7 @@ ul{
     background-color: white;
     color: tomato;
     width: fit-content;
-    padding: 2px 40px;
+    padding: 2px 50px;
     border-top-left-radius:10px ;
     border-bottom-right-radius:10px ;
 }
@@ -98,6 +98,7 @@ ul{
 .trung-header-v01 p{
     width: 60%;
     margin: 20px 0px;
+    color: white;
 }
 .trung-header-v01 button{
     color: white;
@@ -111,11 +112,38 @@ ul{
 /*---------------------body-learn2----------------*/
 .trung-col-12{
     width: 100%;
+    overflow: auto;
     margin: auto;
+}
+#trung-s01{
+    padding: 0px 30px;
 }
 hr{
     margin:auto!important
-    }
+}
+
+.service-icon{
+    display: flex;
+    
+    text-align: center;
+    font-size: 20px;
+}
+.service-icon div{
+    margin: 30px 0px;
+    width: 25%;
+}
+.service-icon a{
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    padding:15px 15px;
+    margin: 10px 0px;
+    border:2px solid #18bb7c;
+    color: #18bb7c;
+}
+.btn-service{
+    color: white;
+    background-color: #18bb7c;
+}
 /*---------------------body-learn5----------------*/
 .v-s01{
     margin: 5% 5%;

@@ -72,11 +72,14 @@ ul{
 }
 .t-title{
     background-color: white;
-    color: tomato;
+    
     width: fit-content;
     padding: 2px 50px;
     border-top-left-radius:10px ;
     border-bottom-right-radius:10px ;
+}
+.t-title h2{
+    color: tomato;
 }
 .trung-header{
     background-image: url(images/anh1.png);
@@ -117,32 +120,70 @@ ul{
 }
 #trung-s01{
     padding: 0px 30px;
+    
 }
+#trung-s01 > div{
+    position:relative;
+}
+.myBtn {
+    align-items: center;
+    border: whitesmoke 2px solid;
+    border-radius: 50px;
+    /* bottom: 10px; */
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    width: 125px;
+    padding-bottom: 2px;
+    position:absolute;
+    right: 16px;
+    background-color: violet;
+  }
 hr{
     margin:auto!important
 }
 
 .service-icon{
     display: flex;
-    
+    margin: 10px 0px;
     text-align: center;
     font-size: 20px;
 }
 .service-icon div{
     margin: 30px 0px;
-    width: 25%;
+    width: 23%;
 }
 .service-icon a{
     border-top-left-radius:10px ;
     border-bottom-right-radius:10px ;
-    padding:15px 15px;
+    padding: 25px 25px;
     margin: 10px 0px;
     border:2px solid #18bb7c;
     color: #18bb7c;
 }
+#trung-s02{
+    padding: 5%;
+}
 .btn-service{
     color: white;
+    border: 0px;
+    padding: 10px 20px;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px ;
     background-color: #18bb7c;
+}
+.trung-s03{
+    background-image: url(images/parallax-1.png);
+    background-color: tomato;
+    padding: 5%;
+}
+.trung-s03 i,p,h2,div{
+    color: white;
+    padding: 10px 0px;
+}
+.trung-s03 span{
+    color: white;
+    margin-top: 20px;
 }
 /*---------------------body-learn5----------------*/
 .v-s01{

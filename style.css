@@ -213,20 +213,36 @@ hr{
 .trung-s04 a{
     color: tomato;
 }
- .jumbotron {
+.trung-s06 .jumbotron {
     background-image: url(images/parallax-1.png);
-    background-color: #F9CB8F; /* Orange */
+    background-color: #F9CB8F; 
     color: #ffffff;
     padding: 10% 5%;
+    margin-bottom: 0;
 }
-.jumbotron img{
+.trung-s06 h1{
+    color: #ffffff;
+}
+.trung-s06 img{
     display: inline-block;
     display:block;
     margin:auto;
     width: 250px;
     height: 6px;
 }
-.jumbotron form {
+.trung-s06 button{
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    border: tomato 2px solid;
+    background-color: white;
+    color: tomato;
+}
+.trung-s06 button:hover{
+    border:  white;
+    background-color: tomato;
+    
+}
+.trung-s06 form {
     display: inline-block;
 }
 /*------------------------footer------------------*/

@@ -127,6 +127,7 @@ ul{
 }
 #trung-s01 .card{
     border: 0px;
+    border-radius: 20px;
 }
 
 #trung-s01 .card:hover{
@@ -221,13 +222,14 @@ hr{
 }
 .trung-s06 h1{
     color: #ffffff;
+    margin: 10px 0px;
 }
 .trung-s06 img{
     display: inline-block;
     display:block;
     margin:auto;
     width: 250px;
-    height: 6px;
+    height: 4px;
 }
 .trung-s06 button{
     border-top-left-radius:10px ;
@@ -317,9 +319,37 @@ hr{
     padding: 2% 5%
 }
 .trung-s09 .card{
-    border: 0px
+    border: 0px; 
+    
 }
+.trung-s09 .card-publish{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    height: 400px;
+}
+.card-publish hr{
+    background-color: #18bb7c;
+    width: 160px;
 
+}
+.card-publish > div{
+    display: inline-block; 
+    color:  white;
+    width: 160px;
+    height:  160px;
+    padding: 45px 0px;
+    margin: 25px 0px;
+    background-color: #18bb7c;
+}
+.card-publish p{
+    margin-top: 30px;
+}
+.trung-s10{
+    padding: 2% 5%
+}
+.trung-s10 p{
+    color: tomato;
+}
 /*------------------------footer------------------*/
 footer{
     display: flex;

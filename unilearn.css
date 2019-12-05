@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/*--------------------header--------------------*/
+/*--------------------hearder--------------------*/
 header h1{
     color: #f27c66;
 }
@@ -313,6 +313,7 @@ float: left;
 .dung-img2{
     width: 30%;
 }
+
 /*-----------------------dung-learn4---------------*/
 .dung-col-12{
     width: 100%;
@@ -418,12 +419,16 @@ margin:auto!important
         }  
         .dung-img2{
             width: 40%;
-            padding-left: 30px;
+            
         }
     .dung-div{
         padding: 30px;
 
     }
+    .dung-v01{
+        text-align: center;
+    }
+    
 }
 
 /* learn3 */

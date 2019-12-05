@@ -125,24 +125,23 @@ ul{
 #trung-s01 img{
     width: 100%;
 }
-#trung-s01 .thumbnail{
-    height: fit-content;
+#trung-s01 .card{
+    border: 0px;
 }
-#trung-s01 .thumbnail:hover{
+
+#trung-s01 .card:hover{
     cursor: pointer;
-	-webkit-transform: scale(1.02, 1);
-    -ms-transform: scale(1.02, 1);
-    transform: scale(1.02, 1);
+	-webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
     transition-duration: 0.3s;
     box-shadow: 10px 10px 0px #888888;
  
 }
-/* #trung-s01 > div{
-    position:relative;
-} */
 
 
-.myBtn {
+
+.btn-top {
     align-items: center;
     border: whitesmoke 2px solid;
     border-radius: 50px;
@@ -245,6 +244,82 @@ hr{
 .trung-s06 form {
     display: inline-block;
 }
+.trung-s07{
+    padding: 2% 5%;
+}
+.trung-s07 .col-md-6{
+    overflow: auto;
+    height: 250px;
+}
+.trung-s07 img.teacher{
+    float: left;
+    width: 36%;
+    height: 100%;
+}
+.trung-s07 hr{
+    width: 100px;
+    margin: 3px 0px;
+    background-color: white;
+}
+.trung-s07 i{
+    margin: 0px 10px;
+}
+.trung-s07 .teacher1{
+    height: 100%;
+    width: 64%;
+    padding: 2% 5%;
+    float: left;
+    color: white;
+    background: tomato;
+}
+.trung-s07 .teacher2{
+    height: 100%;
+    width: 64%;
+    padding: 2% 5%;
+    float: left;
+    color: white;
+    background: #F9CB8F;
+}
+.trung-s07 .teacher3{
+    height: 100%;
+    width: 64%;
+    padding: 2% 5%;
+    float: left;
+    color: white;
+    background: #18bb7c;
+}
+.trung-s07 .teacher4{
+    height: 100%;
+    width: 64%;
+    padding: 2% 5%;
+    float: left;
+    color: white;
+    background: #5F5F5F;
+}
+.trung-s08{
+    padding: 2% 5%;
+}
+.trung-s08 .watch{
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    border: #18bb7c 2px solid;
+    background-color: white;
+    color: #18bb7c;
+    padding: 5px 15px;
+}
+
+.trung-s08 .watch:hover{
+    color:  white;
+    background-color: #18bb7c;
+    
+}
+.trung-s09{
+    padding: 2% 5%
+}
+.trung-s09 .card{
+    border: 0px
+}
+
 /*------------------------footer------------------*/
 footer{
     display: flex;

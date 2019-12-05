@@ -3,25 +3,23 @@
 
 <head>
     <title>Unilearn</title>
-
+    <link rel="icon" href="images/unilearn-icon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-</head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-<script src="newjavascrip.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <script src="newjavascrip.js"></script>
 
 </head>
 
@@ -60,7 +58,7 @@
                 sagittis magna nec neque viverra lobortis. Proin eleifend neque venenatis facilisis cursus. Cras
                 lobortis consequat lorem a porta. Lorem ipsum..</p>
             <button class="btn btn-default btn-lg">Get in Touch</button>
-            <button class="myBtn" title="Go to top">Top</button>
+            <button class="btn-top" title="Go to top">Top</button>
         </div>
 
     </header>
@@ -69,91 +67,86 @@
         <div>
 
             <h3 class="text-center" style="margin: 30px;">Latest course</h3>
-            <div class="row text-center">
-                <div class="col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="1.jpg">
-                        <div class=" p-2   d-flex flex-row bg-dark text-white dung-col-12">
-                            <div style="width: 50%;margin-right: 10px;">Basic Math Courses</div>
-                            <div style="width:50%">$67.00</div>
+            <div class="card-deck text-center">
+                <div class="card">
+                    <img src="1.jpg" class="card-img-top">
+                    <div class=" p-2   d-flex flex-row bg-dark text-white dung-col-12">
+                        <div style="width: 50%;margin-right: 10px;">Basic Math Courses</div>
+                        <div style="width:50%">$67.00</div>
+                    </div>
+                    <div class=" bg-danger text-white dung-col-12">
+                        <div class="  d-flex flex-row text-white mb-3">
+                            <div style="width:50%;margin-right: 15px;">
+                                <i class='fas fa-graduation-cap'></i>
+                                No student enrolled
+                            </div>
+                            <div style="width:50%">
+                                <i class='fas fa-user'></i>
+                                By bachtuan
+                            </div>
                         </div>
-                        <div class=" bg-danger text-white dung-col-12">
-                            <div class="  d-flex flex-row text-white mb-3">
-                                <div style="width:50%;margin-right: 15px;">
-                                    <i class='fas fa-graduation-cap'></i>
-                                    No student enrolled
-                                </div>
-                                <div style="width:50%">
-                                    <i class='fas fa-user'></i>
-                                    By bachtuan
-                                </div>
+                        <hr width="30%" size="5px" align="center" color="white">
+                        <div style="width:100%" class="mt-3">
+                            <p>
+                                Fringilla erat sollicitudin nisi at sem ornare congue fringilla erat soll
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="2.jpg" class="card-img-top">
+                    <div class=" p-2   d-flex flex-row bg-dark text-white dung-col-12">
+                        <div style="width: 50%;margin-right: 10px;">Basic Math Courses</div>
+                        <div style="width:50%">$67.00</div>
+                    </div>
+                    <div class=" bg-danger text-white dung-col-12">
+                        <div class="  d-flex flex-row text-white mb-3">
+                            <div style="width:50%;margin-right: 15px;">
+                                <i class='fas fa-graduation-cap'></i>
+                                No student enrolled
                             </div>
-                            <hr width="30%" size="5px" align="center" color="white">
-                            <div style="width:100%" class="mt-3">
-                                <p>
-                                    Fringilla erat sollicitudin nisi at sem ornare congue fringilla erat soll
-                                </p>
+                            <div style="width:50%">
+                                <i class='fas fa-user'></i>
+                                By bachtuan
                             </div>
+                        </div>
+                        <hr width="30%" size="5px" align="center" color="white">
+                        <div style="width:100%" class="mt-3">
+                            <p>
+                                Fringilla erat sollicitudin nisi at sem ornare congue fringilla erat soll
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="2.jpg">
-                        <div class=" p-2   d-flex flex-row bg-dark text-white dung-col-12">
-                            <div style="width: 50%;margin-right: 10px;">Basic Math Courses</div>
-                            <div style="width:50%">$67.00</div>
-                        </div>
-                        <div class=" bg-danger text-white dung-col-12">
-                            <div class="  d-flex flex-row text-white mb-3">
-                                <div style="width:50%;margin-right: 15px;">
-                                    <i class='fas fa-graduation-cap'></i>
-                                    No student enrolled
-                                </div>
-                                <div style="width:50%">
-                                    <i class='fas fa-user'></i>
-                                    By bachtuan
-                                </div>
-                            </div>
-                            <hr width="30%" size="5px" align="center" color="white">
-                            <div style="width:100%" class="mt-3">
-                                <p>
-                                    Fringilla erat sollicitudin nisi at sem ornare congue fringilla erat soll
-                                </p>
-                            </div>
-                        </div>
+                <div class="card" >
+                    <img src="3.jpg" class="card-img-top">
+                    <div class=" p-2   d-flex flex-row bg-dark text-white dung-col-12">
+                        <div style="width: 50%;margin-right: 10px;">Basic Math Courses</div>
+                        <div style="width:50%">$67.00</div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="3.jpg">
-                        <div class=" p-2   d-flex flex-row bg-dark text-white dung-col-12">
-                            <div style="width: 50%;margin-right: 10px;">Basic Math Courses</div>
-                            <div style="width:50%">$67.00</div>
-                        </div>
-                        <div class=" bg-danger text-white dung-col-12">
-                            <div class="  d-flex flex-row text-white mb-3">
-                                <div style="width:50%;margin-right: 15px;">
-                                    <i class='fas fa-graduation-cap'></i>
-                                    No student enrolled
-                                </div>
-                                <div style="width:50%">
-                                    <i class='fas fa-user'></i>
-                                    By bachtuan
-                                </div>
+                    <div class=" bg-danger text-white dung-col-12">
+                        <div class="  d-flex flex-row text-white mb-3">
+                            <div style="width:50%;margin-right: 15px;">
+                                <i class='fas fa-graduation-cap'></i>
+                                No student enrolled
                             </div>
-                            <hr width="30%" size="5px" align="center" color="white">
-                            <div style="width:100%" class="mt-3">
-                                <p>
-                                    Fringilla erat sollicitudin nisi at sem ornare congue fringilla erat soll
-                                </p>
+                            <div style="width:50%">
+                                <i class='fas fa-user'></i>
+                                By bachtuan
                             </div>
                         </div>
+                        <hr width="30%" size="5px" align="center" color="white">
+                        <div style="width:100%" class="mt-3">
+                            <p>
+                                Fringilla erat sollicitudin nisi at sem ornare congue fringilla erat soll
+                            </p>
+                        </div>>
                     </div>
                 </div>
             </div>
         </div>
-        <button class="myBtn" title="Go to top">Top</button>
+        <button class="btn-top" title="Go to top">Top</button>
         </div>
 
     </section>
@@ -203,7 +196,7 @@
             </div>
 
         </div>
-        <button class="myBtn" title="Go to top">Top</button>
+        <button class="btn-top" title="Go to top">Top</button>
 
     </section>
     <section class="trung-s03">
@@ -230,7 +223,7 @@
                 <p>Donec sed odio dui.</p>
             </div>
         </div>
-        <button class="myBtn" title="Go to top">Top</button>
+        <button class="btn-top" title="Go to top">Top</button>
     </section>
     <section class="trung-s04">
         <div class="row">
@@ -262,7 +255,7 @@
             </div>
 
         </div>
-        <button class="myBtn" title="Go to top">Top</button>
+        <button class="btn-top" title="Go to top">Top</button>
 
     </section>
     <section class="trung-s05">
@@ -291,9 +284,123 @@
         </div>
     </section>
     <section class="trung-s07">
-        
+        <div class="row">
+            <div class="col-md-6">
+                <img src="teacher1.png" class="teacher">
+                <div class="text-center teacher1">
+                    <h4>Jenny Doe</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+                    <div>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="teacher2.png" class="teacher">
+                <div class="text-center teacher2">
+                    <h4>Jenny Doe</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+                    <div>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="teacher3.png" class="teacher">
+                <div class="text-center teacher3">
+                    <h4>Jenny Doe</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+                    <div>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="teacher4.png" class="teacher">
+                <div class="text-center teacher4">
+                    <h4>Jenny Doe</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+                    <div>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <section class="trung-s08">
+        <img src="line.jpg" width="100%">
+        <div class="row">
+            <div class="col-md-6">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/F6QaLsw8EWY" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+                <h2 style="color: #5F5F5F">Learn More About Us From Video</h2>
 
+                <p style="color: #5F5F5F;">Donec sollicitudin lacus in felis luctus blandit. Ut hendrerit mattis justo
+                    at
+                    suscipit. Praesent
+                    sagittis magna nec neque viverra lobortis. Proin eleifend neque venenatis facilisis cursus. Cras
+                    lobortis consequat lorem a porta. Lorem ipsum..Donec sollicitudin lacus in felis luctus blandit. Ut
+                    hendrerit mattis justo at
+                    suscipit.</p>
+                <button class="watch float-right">Watch more &rsaquo;</button>
+            </div>
+        </div>
+    </section>
+    <section class="trung-s09">
+        <div class="card-deck">
+            <div class="card">
+                <img src="teacher4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="teacher4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="teacher4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="v-p01">
             <div class="v-f01 v-a1">

@@ -119,12 +119,27 @@ ul{
     margin: auto;
 }
 #trung-s01{
-    padding: 0px 30px;
+    padding: 0 5%
     
 }
-#trung-s01 > div{
-    position:relative;
+#trung-s01 img{
+    width: 100%;
 }
+#trung-s01 .thumbnail{
+    height: fit-content;
+}
+#trung-s01 .thumbnail:hover{
+    cursor: pointer;
+	-webkit-transform: scale(1.02, 1);
+    -ms-transform: scale(1.02, 1);
+    transform: scale(1.02, 1);
+    transition-duration: 0.3s;
+    box-shadow: 10px 10px 0px #888888;
+ 
+}
+/* #trung-s01 > div{
+    position:relative;
+} */
 
 
 .myBtn {
@@ -153,7 +168,7 @@ hr{
 }
 .service-icon div{
     margin: 30px 0px;
-    width: 23%;
+    width: 25%;
 }
 .service-icon a{
     border-top-left-radius:10px ;
@@ -179,6 +194,7 @@ hr{
     background-color: tomato;
     padding: 5%;
 }
+
 .trung-s03 i,p,h2,div{
     color: white;
     padding: 10px 0px;
@@ -188,7 +204,7 @@ hr{
     margin-top: 20px;
 }
 .trung-s04{
-    padding: 5%;
+    padding: 2% 5%;
     margin: 30px 0px;
 }
 .trung-s04 img.graduate{
@@ -196,6 +212,22 @@ hr{
 }
 .trung-s04 a{
     color: tomato;
+}
+ .jumbotron {
+    background-image: url(images/parallax-1.png);
+    background-color: #F9CB8F; /* Orange */
+    color: #ffffff;
+    padding: 10% 5%;
+}
+.jumbotron img{
+    display: inline-block;
+    display:block;
+    margin:auto;
+    width: 250px;
+    height: 6px;
+}
+.jumbotron form {
+    display: inline-block;
 }
 /*------------------------footer------------------*/
 footer{

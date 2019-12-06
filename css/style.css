@@ -82,7 +82,7 @@ ul{
     color: tomato;
 }
 .trung-header{
-    background-image: url(images/anh1.png);
+    background-image: url(../images/anh1.png);
     background-repeat: no-repeat;
     background-size: cover;   
 }

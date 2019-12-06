@@ -189,7 +189,7 @@ hr{
     border-bottom-right-radius:10px ;
     background-color: #18bb7c;
 }
-.trung-s03{
+.trung-s03 {
     background-image: url(images/parallax-1.png);
     background-color: tomato;
     padding: 5%;
@@ -212,6 +212,25 @@ hr{
 }
 .trung-s04 a{
     color: tomato;
+}
+.trung-s05{
+    padding: 2% 5%;
+}
+.trung-s05 .card{
+    border: 0px
+}
+.trung-s05 #headingOne, #headingTwo, #headingThree{
+    border-radius:10px ;
+    background-color: #18bb7c;
+}
+.trung-s05 .card-body{
+    background-color: white;
+    border-radius:10px ;
+    border: 1.6px solid #dadce0;
+}
+.trung-s05 .icon{
+    color: white;
+    margin: 0px 10px;
 }
 .trung-s06 .jumbotron {
     background-image: url(images/parallax-1.png);

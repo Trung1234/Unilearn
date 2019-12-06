@@ -264,19 +264,53 @@
     </section>
     <section class="trung-s05">
         <img src="line.jpg" width="100%">
-        <div class="container">
-            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Simple
-                collapsible</button>
-            <div id="demo" class="collapse show" style="color: black;">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion" id="accordionUnilearn">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <button type="button" class="btn btn-link icon" data-toggle="collapse" data-target="#collapseOne">
+                                        <i class="fa fa-plus icon"></i>Lorem ipsum dolor sit amet, consectetur</button>					
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionUnilearn">
+                                    <div class="card-body">
+                                        <p class="text-muted">HTML stands for HyperText Markup Language. HTML is the standard markup language for describing the structure of web pages.>Learn more.</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <button type="button" class="btn btn-link collapsed icon" data-toggle="collapse" data-target="#collapseTwo">
+                                        <i class="fa fa-plus icon"></i> Lorem ipsum dolor sit amet, consectetur</button>
+                                </div>
+                                <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionUnilearn">
+                                    <div class="card-body">
+                                        <p class="text-muted">Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development. It is a collection of CSS </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <button type="button" class="btn btn-link collapsed icon" data-toggle="collapse" data-target="#collapseThree">
+                                        <i class="fa fa-plus icon"></i> Lorem ipsum dolor sit amet, consectetur</button>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionUnilearn">
+                                    <div class="card-body">
+                                        <p class="text-muted">CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML 
+                                            element such as colors, backgrounds, fonts etc.>Learn more.</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+
             </div>
         </div>
     </section>
     <section class="trung-s06 text-center">
         <div class="jumbotron ">
-            <h1>Get touch with us</h1>
+            <h1>Get in touch with us</h1>
             <img src="line-1.png">
             <p>We specialize in blablabla</p>
 
@@ -471,6 +505,7 @@
         </div>
 
     </section>
+
     <footer>
         <div class="v-p01">
             <div class="v-f01 v-a1">

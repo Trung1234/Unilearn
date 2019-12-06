@@ -350,6 +350,32 @@ hr{
 .trung-s10 p{
     color: tomato;
 }
+#carouselExampleInterval .img-carousel{
+    border-top-left-radius:10px ;
+    border: solid 2px grey;
+    border-bottom-right-radius:10px ;
+}
+#carouselExampleInterval h5{
+    color: #f27c66;
+}
+#carouselExampleInterval img{
+    height: 98%;
+    width: 98%;
+    border-top-left-radius:10px ;
+    border: solid 2px whitesmoke;
+    border-bottom-right-radius:10px ;
+}
+.carousel-indicators > li {
+    border: solid 1px #f27c66;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%
+    
+  }
+  
+  .carousel-indicators > li.active {
+    background-color: #f27c66;
+  }
 /*------------------------footer------------------*/
 footer{
     display: flex;

@@ -28,4 +28,10 @@ $(document).ready(function(){
     }).on('hide.bs.collapse', function(){
         $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
     });
+    //event to top for class "btn-top" using class "trung-header" for target
+    $(".btn-top").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".trung-header").offset().top},
+            'slow');
+    });
 });

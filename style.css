@@ -84,9 +84,7 @@ ul{
 .trung-header{
     background-image: url(images/anh1.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    /* background-attachment:fixed; */
-    
+    background-size: cover;   
 }
 /*---------------------trung-header----------------*/
 .trung-header-v01{
@@ -103,11 +101,11 @@ ul{
     margin: 20px 0px;
     color: white;
 }
-.trung-header-v01 button{
+.trung-header-v01 .btn-lg{
     color: white;
     background-color: tomato;
 }
-.trung-header-v01 button:hover{
+.trung-header-v01 .btn-lg:hover{
     color: tomato;
     background-color: white;
     border-color: tomato
@@ -136,25 +134,22 @@ ul{
     -ms-transform: scale(1, 1);
     transform: scale(1, 1);
     transition-duration: 0.3s;
-    box-shadow: 10px 10px 0px #888888;
- 
+    box-shadow: 10px 10px 0px #888888; 
 }
-
-
 
 .btn-top {
     align-items: center;
-    border: whitesmoke 2px solid;
-    border-radius: 50px;
+    border: 0px;
+    border-radius: 5px;
     /* bottom: 10px; */
     display: flex;
-    height: 32px;
     justify-content: center;
-    width: 125px;
     padding-bottom: 2px;
     position:absolute;
     right: 16px;
-    background-color: violet;
+    width: 50px;
+    height: 54px;
+    background-image: url(top.png);
   }
 hr{
     margin:auto!important
@@ -231,6 +226,9 @@ hr{
 .trung-s05 .icon{
     color: white;
     margin: 0px 10px;
+}
+.trung-s05 .ad{
+    width: 90%;
 }
 .trung-s06 .jumbotron {
     background-image: url(images/parallax-1.png);
@@ -369,17 +367,17 @@ hr{
 .trung-s10 p{
     color: tomato;
 }
-#carouselExampleInterval .img-carousel{
+#carouselInterval .img-carousel{
     border-top-left-radius:10px ;
     border: solid 2px grey;
     border-bottom-right-radius:10px ;
 }
-#carouselExampleInterval h5{
+#carouselInterval h5{
     color: #f27c66;
 }
-#carouselExampleInterval img{
-    height: 98%;
-    width: 98%;
+#carouselInterval img{
+    height: 99%;
+    width: 90%;
     border-top-left-radius:10px ;
     border: solid 2px whitesmoke;
     border-bottom-right-radius:10px ;

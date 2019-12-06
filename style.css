@@ -140,6 +140,7 @@ ul{
 .btn-top {
     align-items: center;
     border: 0px;
+    margin-bottom: 170px;
     border-radius: 5px;
     /* bottom: 10px; */
     display: flex;
@@ -152,7 +153,7 @@ ul{
     font-size: 35px;
     color: white;
     background-color: black;
-  }
+}
 hr{
     margin:auto!important
 }
@@ -250,7 +251,7 @@ hr{
     width: 250px;
     height: 4px;
 }
-.trung-s06 button{
+.trung-s06 button.send{
     border-top-left-radius:10px ;
     border-bottom-right-radius:10px ;
     border: tomato 2px solid;
@@ -260,7 +261,7 @@ hr{
 .trung-s06 button:hover{
     border:  white;
     background-color: tomato;
-    
+    color: white;
 }
 .trung-s06 form {
     display: inline-block;

@@ -342,10 +342,62 @@ hr{
     border: 0px; 
     
 }
+
+.trung-s09 .card-event{
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    height: 400px;
+}
+.card-event hr{
+    background-color: #F27C66;
+    width: 160px;
+
+}
+.card-event h5{
+    color: #F27C66;
+}
+.card-event > div{
+    display: inline-block; 
+    color:  white;
+    width: 160px;
+    height:  160px;
+    padding: 45px 0px;
+    margin: 25px 0px;
+    background-color: #F27C66;
+}
+.card-event p{
+    margin-top: 30px;
+}
+
+.card-blog hr{
+    background-color: #F9CB8F;
+    width: 160px;
+
+}
+.card-blog h5{
+    color: #F9CB8F;
+}
+.card-blog > div{
+    display: inline-block; 
+    color:  white;
+    width: 160px;
+    height:  160px;
+    padding: 45px 0px;
+    margin: 25px 0px;
+    background-color: #F9CB8F;
+}
+.card-blog p{
+    margin-top: 30px;
+}
+
+
 .trung-s09 .card-publish{
     border: 1px solid whitesmoke;
     border-radius: 20px;
     height: 400px;
+}
+.card-publish h5{
+    color: #18bb7c;
 }
 .card-publish hr{
     background-color: #18bb7c;

@@ -90,11 +90,12 @@ header ul{
 }
 .t-title h1{
     color: tomato;
+    padding-right: 5px;
 }
 .trung-header{
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
-    height: 600px;
+    height: fit-content;
     background-size: cover; 
 }
 /*---------------------trung-header----------------*/
@@ -217,6 +218,9 @@ hr{
     color: white;
     margin-top: 20px;
 }
+.space{
+    margin: 20px 5px;
+}
 .trung-s04{
     padding: 2% 5%;
     margin: 30px 0px;
@@ -305,32 +309,36 @@ hr{
 .trung-s07 .teacher1{
     height: 100%;
     width: 64%;
-    padding: 2% 5%;
+     padding: 10% 5%;
     float: left;
+    vertical-align: middle;
     color: white;
     background: tomato;
 }
 .trung-s07 .teacher2{
     height: 100%;
     width: 64%;
-    padding: 2% 5%;
+     padding: 10% 5%;
     float: left;
+    vertical-align: middle;
     color: white;
     background: #F9CB8F;
 }
 .trung-s07 .teacher3{
     height: 100%;
     width: 64%;
-    padding: 2% 5%;
+     padding: 10% 5%;
     float: left;
+    vertical-align: middle;
     color: white;
     background: #18bb7c;
 }
 .trung-s07 .teacher4{
     height: 100%;
     width: 64%;
-    padding: 2% 5%;
+     padding: 10% 5%;
     float: left;
+    vertical-align: middle;
     color: white;
     background: #5F5F5F;
 }
@@ -384,6 +392,11 @@ hr{
 .card-event p{
     margin-top: 30px;
 }
+.card-event div:hover{
+    border: 1px solid #F27C66;
+    color: #F27C66;
+    background-color: white;
+}
 
 .card-blog hr{
     background-color: #F9CB8F;
@@ -404,6 +417,11 @@ hr{
 }
 .card-blog p{
     margin-top: 30px;
+}
+.card-blog div:hover{
+    border: 1px solid #F9CB8F;
+    color: #F9CB8F;
+    background-color: white;
 }
 
 
@@ -432,6 +450,12 @@ hr{
 .card-publish p{
     margin-top: 30px;
 }
+.card-publish div:hover{
+    border: 1px solid #18bb7c;
+    color: #18bb7c;
+    background-color: white;
+}
+
 .trung-s10{
     padding: 2% 5%
 }

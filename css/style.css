@@ -9,20 +9,27 @@
     src: url(Raleway-Medium.ttf);
 }
 /*--------------------hearder--------------------*/
-h1{
+header h1{
     color: #f27c66;
 }
-header a:hover{
+.header a:hover{
     color: #b0b0b0;
 }
-ul{
+header ul{
     display: flex;
     list-style: none;
 }
-.trung-a01{
+.v-h05{
+    float: left;
+    margin-left:5%;
+}
+.v-b02{
+    border: none;
+}
+.v-a01{
     /* background-color: #5f5f5f; */
     overflow: auto;
-    color: #ffffff;
+    color: white;
 }
 .v-h01{
     float: left;
@@ -61,6 +68,9 @@ ul{
     overflow: auto;
     color: #5f5f5f;
 }
+.v-b02{
+    border: none;
+}
 .v-h03{
     padding-top: 25px;
 }
@@ -78,13 +88,14 @@ ul{
     border-top-left-radius:10px ;
     border-bottom-right-radius:10px ;
 }
-.t-title h2{
+.t-title h1{
     color: tomato;
 }
 .trung-header{
-    background-image: url(../images/anh1.png);
+    background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;   
+    height: 600px;
+    background-size: cover; 
 }
 /*---------------------trung-header----------------*/
 .trung-header-v01{
@@ -193,15 +204,15 @@ hr{
 }
 
 .trung-s03 {
-    background-image: url(images/parallax-1.png);
+    background-image: url(http://unilearn.cwsthemes.com/wp-content/uploads/2016/04/parallax-1.png);
     background-color: tomato;
     padding: 5%;
 }
 
-.trung-s03 i,p,h2,div{
+/* .trung-s03 i,p,h2,div{
     color: white;
     padding: 10px 0px;
-}
+} */
 .trung-s03 span{
     color: white;
     margin-top: 20px;
@@ -239,7 +250,7 @@ hr{
     width: 90%;
 }
 .trung-s06 .jumbotron {
-    background-image: url(images/parallax-1.png);
+    background-image: url(http://unilearn.cwsthemes.com/wp-content/uploads/2016/04/parallax-1.png);
     background-color: #F9CB8F; 
     color: #ffffff;
     padding: 10% 5%;
@@ -432,6 +443,18 @@ hr{
     border: solid 2px grey;
     border-bottom-right-radius:10px ;
 }
+span.openquote{
+    background-image: url(../images/openquote1.gif);
+    display: block;;
+     background-repeat: no-repeat;
+     background-position: top left;
+}
+span.closequote{
+    background-image: url(../images/closenquote1.gif);
+    display: block;;
+     background-repeat: no-repeat;
+     background-position: bottom right;
+}
 #carouselInterval h5{
     color: #f27c66;
 }
@@ -612,10 +635,7 @@ footer a:hover{
     .v-h03{
         display: block;
         float: none;
-        text-align: center;
         padding: 0;
-        margin: 0;
-        text-align: center;
     }
     .v-li01{
         margin-right: 0;
@@ -623,8 +643,6 @@ footer a:hover{
     footer{
         padding-left: 3%;
     }
-   
-    
 }
 @media only screen and (max-width: 768px) {
     .v-s01{

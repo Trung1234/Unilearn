@@ -54,7 +54,7 @@ header ul{
 .v-h03 li{
     padding-right:20px;
     margin-right:20px;
-    border-right: 2px solid black;
+    border-right: 2px solid white;
 }
 .v-h03 .v-li01{
     border: none;
@@ -72,7 +72,7 @@ header ul{
     border: none;
 }
 .v-h03{
-    padding-top: 25px;
+    padding-top: 6px;
 }
 .v-c03{
     /* background-color: #5f5f5f; */
@@ -211,10 +211,7 @@ hr{
     padding: 5%;
 }
 
-/* .trung-s03 i,p,h2,div{
-    color: white;
-    padding: 10px 0px;
-} */
+
 .trung-s03 span{
     color: white;
     margin-top: 20px;
@@ -632,14 +629,9 @@ footer a:hover{
         margin-left: 5%;
     }
     .v-i01{
-        width: 70%;
+        width: 100%;
         margin: auto;
     }
-    /* .v-i01{
-        width: 65%;
-        float: none;
-        margin: auto;
-    } */
    
     .v-bk02 h1{
         font-size: 25px;
@@ -684,7 +676,7 @@ footer a:hover{
         display: none;
     }
     .v-i01{
-        width: 70%;
+        width: 80%;
         margin: auto;
     }
 

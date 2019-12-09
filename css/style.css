@@ -96,13 +96,14 @@ header ul{
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     height: fit-content;
-    background-size: cover; 
+    background-size: 100% cover; 
 }
 /*---------------------trung-header----------------*/
 .trung-header-v01{
     text-align: left;
     padding: 100px 0px;
-    margin-left: 5%;
+    padding-left: 5%;
+    /* margin-left: 5%; */
 }
 .trung-header-v01 p{
     width: 60%;
@@ -152,14 +153,14 @@ header ul{
 .btn-top {
     align-items: center;
     border: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     border-radius: 5px;
     bottom: 10px;
     display: flex;
     justify-content: center;
     padding: 15px 0px;
     position: fixed;
-    right: 16px;
+    right: 5px;
     width: 40px;
     height: 45px;
     font-size: 35px;
@@ -254,7 +255,7 @@ hr{
     margin: 0px 10px;
 }
 .trung-s05 .ad{
-    width: 90%;
+    width: 98%;
 }
 .trung-s06 .jumbotron {
     background-image: url(http://unilearn.cwsthemes.com/wp-content/uploads/2016/04/parallax-1.png);
@@ -278,6 +279,7 @@ hr{
     border-top-left-radius:10px ;
     border-bottom-right-radius:10px ;
     border: tomato 2px solid;
+    width: 70px;
     background-color: white;
     color: tomato;
 }

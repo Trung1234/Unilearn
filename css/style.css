@@ -3,9 +3,6 @@
     margin: 0;
     padding: 0;
 }
-.mb-2, .my-2 {
-    margin-bottom: 0!important;
-}
 /*--------------------font-chu-------------------*/
 @font-face{
     font-family: raleway;
@@ -29,9 +26,6 @@ header ul{
 .v-b02{
     border: none;
 }
-.contact{
-    font-size: 20px;
-}
 .v-a01{
     /* background-color: #5f5f5f; */
     overflow: auto;
@@ -51,10 +45,10 @@ header ul{
 .v-h03{
     font-weight: bold;
 }
-.v-h01 span{
+.v-h01 li{
     margin-left:15px;
 }
-.v-h02 span{
+.v-h02 li{
     margin-right:15px;
 }
 .v-h03 li{

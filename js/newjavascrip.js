@@ -43,10 +43,19 @@ $(document).ready(function(){
     }).on('hide.bs.collapse', function(){
         $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
     });
-    //event to top for class "btn-top" using class "trung-header" for target
-    $(".btn-top").click(function() {
-        $('html,body').animate({
-            scrollTop: $(".trung-header").offset().top},
-            'slow');
-    });
+
+    // Show or hide the sticky footer button
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 200) {
+					$('#btn-top').fadeIn(200);
+				} else {
+					$('#btn-top').fadeOut(200);
+				}
+			});
+	
+    // Animate the scroll to top
+			$('#btn-top').click(function(event) {
+				event.preventDefault();
+				$('html, body').animate({scrollTop: 0}, 900);
+			});
 });

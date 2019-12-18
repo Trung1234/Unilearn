@@ -48,6 +48,9 @@ header ul{
 .v-h01 li{
     margin-left:15px;
 }
+.v-h01 a:hover{
+    text-decoration: underline !important;
+}
 .v-h02 li{
     margin-right:15px;
 }
@@ -60,6 +63,9 @@ header ul{
     border: none;
     margin-right: 15px;
     padding-right: 0;
+}
+.nav-link:hover{
+    color:  #f27c66 !important;
 }
 .v-b01{
     /* background-color: #ffffff; */

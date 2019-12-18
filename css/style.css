@@ -157,6 +157,7 @@ header ul{
     border-radius: 5px;
     bottom: 10px;
     display: none;
+    opacity: .5;
     justify-content: center;
     padding: 15px 0px;
     position: fixed;
@@ -166,6 +167,9 @@ header ul{
     font-size: 35px;
     color: white;
     background-color: black;
+}
+#btn-top:hover{
+    opacity: 1;
 }
 hr{
     margin:auto!important
